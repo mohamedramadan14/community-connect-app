@@ -4,7 +4,7 @@ import { UploadDropzone } from "@/lib/uploadthing";
 import { X } from "lucide-react";
 import Image from "next/image";
 
-import "@uploadthing/react/styles.css";
+
 
 type FileUploadProps = {
   endpoint: "serverImage" | "messageFile";
@@ -19,7 +19,7 @@ const FileUpload = ({ endpoint, onChange, value }: FileUploadProps) => {
         <Image src={value} fill alt="Upload" className="rounded-full" />
         <button
           onClick={() => onChange("")}
-          className="bg-rose-500 text-white p-1 rounded-full absolute top-0 right-0 shadow-sm"
+          className="bg-rose-600 text-white p-1 rounded-full absolute top-0 right-0 shadow-sm"
           type="button"
         >
           <X className="h-3 w-3" />
