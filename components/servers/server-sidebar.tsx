@@ -4,6 +4,7 @@ import { redirectToSignIn } from "@clerk/nextjs";
 import { ChannelType } from "@prisma/client";
 import { redirect } from "next/navigation";
 import { ServerHeader } from "@/components/servers/server-header";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 type ServerSideBarProps = {
   serverId: string;
@@ -58,6 +59,9 @@ export const ServerSideBar = async ({ serverId }: ServerSideBarProps) => {
   return (
     <div className="flex flex-col h-full text-primary w-full dark:bg-[#2B2D31] bg-[#F2F3F5]">
       <ServerHeader server={server} role={role} />
+      <ScrollArea className="flex-1 px-3">
+        
+      </ScrollArea>
     </div>
   );
 };

@@ -64,11 +64,16 @@ const InviteModal = () => {
               disabled={isLoading}
               readOnly
             />
-            <Button size="icon" onClick={onCopy} disabled={isLoading}>
+            <Button
+              size="icon"
+              onClick={onCopy}
+              disabled={isLoading}
+              className="bg-neutral-300"
+            >
               {copied ? (
                 <ClipboardCheck className="h-5 w-5 text-emerald-500" />
               ) : (
-                <Copy className="h-5 w-5 text-zinc-700" />
+                <Copy className="h-5 w-5 dark:text-zinc-700" />
               )}
             </Button>
           </div>
