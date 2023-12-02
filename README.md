@@ -9,7 +9,7 @@
     - [Main Screen](#main-screen)
     - [Main Screen](#main-screen-1)
     - [Video Channel](#video-channel)
-    - [Video Channel](#video-channel-1)
+    - [One-on-One Messages](#one-on-one-messages)
   - [How to Generate](#how-to-generate)
   - [TODO](#todo)
 
@@ -39,7 +39,7 @@ The Community Connect Application is a dynamic platform fostering communication 
 
 *Video Channel with embedded chat and screen sharing feature*
 
-### Video Channel
+### One-on-One Messages
 ![Private One-on-One Message](./images/screen_shot_3.png)
 
 *Displays private one-to-one messages*
