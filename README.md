@@ -51,7 +51,6 @@ Follow these steps to generate and run the Community Chat Application:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/mohamedramadan14/community-connect-app.git
-   cd community-chat-app
    ```
 2. **Add required info based on .env.example file:**
 4. **Install Dependencies:**
